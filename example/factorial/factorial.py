@@ -1,3 +1,4 @@
+# 數學函式庫
 import math
 
 def factorial(n):
