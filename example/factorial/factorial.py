@@ -17,3 +17,4 @@ if __name__ == '__main__':
     print('logFactorial(10)=', logFactorial(10))
     print('exp(logFactorial(10))=', math.exp(logFactorial(10)))
     assert round(math.exp(logFactorial(10)))==factorial(10)
+    # 浮點數會有誤差，所以要 round 後才會一樣
